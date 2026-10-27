@@ -41,25 +41,33 @@
 // Función para sumar cantidades variables de números
 
 
-function sumar(...numeros){
+// function sumar(...numeros){
 
-    let total = 0;
+//     let total = 0;
 
-    for (const numero of numeros) {
+//     for (const numero of numeros) {
 
-        total = total + numero;
-    }
+//         total = total + numero;
+//     }
 
-    return total;
-}
+//     return total;
+// }
 
-console.log(sumar(10,5));
-console.log(sumar(1,5,3,));
-console.log(sumar(25,5,10,3));
-console.log(sumar(1,3,9,12,15));
+// console.log(sumar(10,5));
+// console.log(sumar(1,5,3,));
+// console.log(sumar(25,5,10,3));
+// console.log(sumar(1,3,9,12,15));
 
 
 
 // Ejercicio 4. 
 // Invertir un array
 
+let frutas = ['durazno', 'guanabana', 'uva', 'naranja'];
+let invertidas = [];
+
+for (let i = frutas.length - 1; i >= 0; i--) {
+  invertidas.push(frutas[i]);
+}
+
+console.log(invertidas) ; 
