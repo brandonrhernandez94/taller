@@ -63,11 +63,35 @@
 // Ejercicio 4. 
 // Invertir un array
 
-let frutas = ['durazno', 'guanabana', 'uva', 'naranja'];
-let invertidas = [];
+// let frutas = ['durazno', 'guanabana', 'uva', 'naranja'];
+// let invertidas = [];
 
-for (let i = frutas.length - 1; i >= 0; i--) {
-  invertidas.push(frutas[i]);
+// for (let i = frutas.length - 1; i >= 0; i--) {
+//   invertidas.push(frutas[i]);
+// }
+
+// console.log(invertidas) ; 
+
+
+
+
+// Ejercicio 5. 
+// El tiempo que dedicamos a las redes sociales
+
+
+let horasRedesMundo = 2.7;
+let horasRedesColombia = 3.6;
+let diasAño = 365;
+
+function calcular() {
+  let horas = horasRedesColombia * diasAño;
+  let dias = horas / 24;
+
+  console.log("Horas al año: " + horas);
+  console.log("Días: " + dias);
+  console.log("Semanas: " + dias / 7);
+  console.log("Meses: " + dias / 30);
+  console.log("Días adicionales: " + ((horasRedesColombia - horasRedesMundo) * diasAño / 24));
 }
 
-console.log(invertidas) ; 
+calcular();
