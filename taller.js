@@ -26,3 +26,14 @@ console.log("Número menor:", menor);
 // Ejercicio 2. 
 // Tabla de multiplicar del 7
 
+
+const numero = 7;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${numero} x ${i} = ${numero * i}`);
+}
+
+
+
+
+
